@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu May 14 19:04:36 CST 2020","Thu May 14 19:05:13 CST 2020","37031","test_case","test_login","TestLogin","","","test_login","
-        测试登录
-        "
