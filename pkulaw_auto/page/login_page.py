@@ -8,6 +8,9 @@ class Login(PageObject):
     password = PageElement(id_ = "inputPwd")
     login_btu = PageElement(id_ = "loginByUserName")
     logout = PageElement(link_text = "退出")
+    login_msg = PageElement(id_ = "pwdTips")
+    login_user_msg = PageElement(id_ = "userTips")
+    login_pwd_msg = PageElement(id_ = "pwdTips")
 
 
 

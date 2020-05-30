@@ -26,5 +26,5 @@ if __name__ == '__main__':
     report = os.path.join(REPORT_DIR, now_time, "report.html")
 
     #pytest.main(["-v","-s",RunConfig.cases_path,"--html="+report])
-    pytest.main(["-v", "-s", "./test_case/test_login.py", "--html=" + report])
+    pytest.main(["-v", "-s", "./test_case/", "--html=" + report])
     #sendemail(report,sendmail_address,sendmail_password,receivemail_address,email_host)

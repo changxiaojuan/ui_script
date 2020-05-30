@@ -46,6 +46,7 @@ def receivemail_address():
 def email_host():
     return RunConfig.host
 
+
 @pytest.fixture(scope='session', autouse=True)
 def browser():
     """
