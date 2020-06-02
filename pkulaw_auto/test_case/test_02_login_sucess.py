@@ -1,4 +1,4 @@
-from page.login_page import Login
+from page.login_01_page import Login
 from time import sleep
 import pytest
 
@@ -14,8 +14,8 @@ class TestLogin:
         sleep(2)
         login.username.send_keys(username)
         login.password.send_keys(password)
+        login.remember.click()
         login.login_btu.click()
         sleep(1)
         assert "退出" == login.logout.text
         sleep(5)
-        login.logout.click()

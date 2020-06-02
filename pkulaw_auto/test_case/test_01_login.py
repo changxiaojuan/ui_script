@@ -1,4 +1,4 @@
-from page.login_page import Login
+from page.login_01_page import Login
 from time import sleep
 import pytest
 
@@ -93,4 +93,4 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-    pytest.main(["-v","-s","./test_login.py"])
+    pytest.main(["-v","-s","./test_01_login.py"])
